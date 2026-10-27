@@ -1,0 +1,23 @@
+{
+  "name": "wb-local-hooks",
+  "description": "AgentSync 本地 hook 插件市场：让 WorkBuddy 像 Zcode 一样每轮注入全局记忆",
+  "owner": {
+    "name": "AgentSync"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "global-memory-inject",
+      "description": "在每条消息前注入全局记忆规则（UserPromptSubmit hook），改规则后下一句话立即生效，无需重开会话",
+      "source": "./plugins/global-memory-inject",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "AgentSync"
+      },
+      "license": "MIT"
+    }
+  ]
+}

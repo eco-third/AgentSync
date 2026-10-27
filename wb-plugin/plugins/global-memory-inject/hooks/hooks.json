@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CODEBUDDY_PLUGIN_ROOT}/hooks/global-memory.mjs\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

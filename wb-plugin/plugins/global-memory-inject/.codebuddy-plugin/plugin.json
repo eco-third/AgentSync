@@ -1,0 +1,9 @@
+{
+  "name": "global-memory-inject",
+  "version": "1.0.0",
+  "description": "每轮注入全局记忆规则（UserPromptSubmit hook）",
+  "author": {
+    "name": "AgentSync"
+  },
+  "license": "MIT"
+}

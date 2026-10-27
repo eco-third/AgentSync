@@ -1,0 +1,37 @@
+{
+  "zcode": {
+    "db": "~/.zcode/cli/db/db.sqlite",
+    "tasks_index": "~/.zcode/v2/tasks-index.sqlite",
+    "rules_file": "~/.zcode/AGENTS.md",
+    "include_subagents": false,
+    "allow_overwrite": true,
+    "write_task_index": true,
+    "estimate_tokens": true
+  },
+
+  "workbuddy": {
+    "db": "~/.workbuddy/workbuddy.db",
+    "projects_dir": "~/.workbuddy/projects",
+    "rules_file": "",
+    "mirror_file": "~/.workbuddy/AGENTS.md",
+    "write_project_rules": true,
+    "project_rules_relpath": ".codebuddy/CODEBUDDY.md"
+  },
+
+  "sync": {
+    "skip_active_sessions": true,
+    "allow_cross_workspace_match": true,
+    "equal_tolerance_ms": 1000,
+    "propagate_delete": false,
+    "backup_keep": 5,
+    "normalize_workspace_paths": true,
+    "require_zcode_closed": true
+  },
+
+  "workspaces": {},
+
+  "memory": {
+    "backup_on_change": true,
+    "max_rules_bytes": 8000
+  }
+}

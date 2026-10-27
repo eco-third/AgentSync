@@ -1,0 +1,22 @@
+# ---- 运行时数据（跟具体机器/账号绑定，不入库）----
+/state/
+/logs/
+/config.json
+
+# ---- 构建产物 ----
+*.exe
+*.spec
+/开发/build/
+/开发/dist/
+__pycache__/
+*.py[cod]
+
+# ---- 本机绝对路径标记（由 install_wb_hook.py 生成）----
+wb-plugin/plugins/global-memory-inject/hooks/agentsync-root.txt
+
+# ---- 编辑器/系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,12 @@
+# 统一换行，避免 Windows/Linux 两侧改同一份文件产生满屏 diff
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.mjs   text eol=lf
+*.bat   text eol=crlf
+
+*.exe   binary
+*.sqlite binary
+*.db    binary
